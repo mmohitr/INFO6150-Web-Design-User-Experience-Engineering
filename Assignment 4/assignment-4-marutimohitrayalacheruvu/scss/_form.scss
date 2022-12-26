@@ -1,0 +1,25 @@
+@import 'config';
+
+/* form styling */
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: $font-family-1;
+    background-color: white;
+    opacity: 0.95;
+    width: 53%;
+    text-align: center;
+    border-radius: 15px;
+    label{
+        display: block;
+        margin: 5px;
+    }
+    fieldset{ 
+        border: 0px;
+    }
+    img{
+        border-radius: 15px;
+    }
+}

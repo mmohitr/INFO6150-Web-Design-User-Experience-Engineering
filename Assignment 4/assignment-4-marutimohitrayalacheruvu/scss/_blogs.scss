@@ -1,0 +1,77 @@
+@import 'config';
+@import 'images';
+
+%grd{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* blogs styling */
+.blogs-heading{
+    text-align: center
+}
+
+.blogs{
+    @extend %grd;    
+    flex-direction: row;
+    a{
+        font-family: $font-family-2;
+        color: white;
+        font-weight: bolder;
+    }
+}
+
+.blog-main{
+    flex: 2;
+    img{
+        @include image-dimensions(500px, 600px);
+        @extend %img;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+}
+
+.blogs-sec{
+    @extend %grd;
+    flex-direction: column;
+}
+
+.blog-sec{
+    flex: 1;
+    img{
+        @include image-dimensions(200px, 600px);
+        @extend %img;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+}
+
+.kili{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-size:30px;
+    width: 500px;
+    text-align: center;
+}
+
+.traveller{
+    position: absolute;
+    top: 75px;
+    left: 150px;
+    font-size:30px;
+    width: 400px;
+    text-align: center;
+}
+
+.packing{
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    font-size:30px;
+    width: 400px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+@import 'config';
+@import 'images';
+
+/* footer styling */
+footer{
+    @extend %img;
+    font-family: $font-family-1;
+    text-align: center;
+    background-color: rgb(212,218,232);
+    padding: 40px;
+    .copyright{
+        float: left;
+    }
+    img{
+        @include image-dimensions(25px, 25px);
+        object-fit: cover;
+        float: right;
+        display: inline;
+    }
+    .links{
+        float: center;
+        a{
+            padding: 20px;
+            display: inline;
+        } 
+    }
+}

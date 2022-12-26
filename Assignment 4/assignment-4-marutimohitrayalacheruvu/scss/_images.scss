@@ -1,0 +1,8 @@
+%img{
+    border-radius: 16px;
+}
+
+@mixin image-dimensions($height, $width){
+    height: $height;
+    width: $width;
+}

@@ -1,0 +1,36 @@
+@import 'config';
+
+/* home page styling */
+.home-page{
+    position: relative;
+    text-align: center;
+    color: white;
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 150%;
+        padding-top: 25px;
+    }
+
+    h1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: $font-family-1;
+        font-size: 60px;
+    }
+
+    p{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: $font-family-1;
+        width: 550px;
+        justify-content: center;
+        line-height: 20pt;
+    }
+}

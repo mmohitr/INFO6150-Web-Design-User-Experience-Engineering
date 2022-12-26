@@ -1,0 +1,36 @@
+@import 'config';
+@import 'images';
+
+/* customer testimonials styling */
+.customers-heading{
+    text-align: center;
+}
+
+.customers{
+    display: flex;
+    h2{
+        font-family: $font-family-2;
+        text-align: center;
+        padding: 15px;
+    }
+    h3, p, figcaption{
+        font-family: $font-family-2;
+        padding: 5px;
+    }
+    img{
+        @include image-dimensions(40px, 40px);
+    }
+    p{
+        margin: 0;
+    }
+}
+
+.role{
+    margin: 0;
+    color: rgb(192,192,192);
+}
+
+.customer{
+    flex: 1;
+    padding-left: 30px;
+}

@@ -1,0 +1,46 @@
+@import 'config';
+@import 'images';
+@import 'blogs';
+
+/* recommended destinations styling */
+%dest{
+    font-family: $font-family-3;
+}
+
+.recommended{
+    @extend %dest;
+    text-align: center;
+    padding: 15px;
+    a{
+        padding: 15px;
+        color: rgb(0,0,0);
+    }
+}
+
+.destinations{
+    @extend %grd;
+}
+
+.destination{
+    flex: 1;
+    img{
+        @extend %img;
+        @include image-dimensions(200px, 300px);
+        z-index: -1;
+    }
+    a, figcaption, p{
+        @extend %dest;
+    }
+    a{
+        color: $destination-links-color;
+    }
+    @for $i from 1 through 6{
+        figcaption:nth-child(#{$i}){
+            font-weight: bolder;
+        }
+    }
+    .cost, .approx{
+        display: inline;
+        float: right;
+    }
+}

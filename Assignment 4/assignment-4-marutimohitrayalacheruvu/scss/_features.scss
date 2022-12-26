@@ -1,0 +1,28 @@
+@import 'config';
+@import 'images';
+
+/* features styling */
+.features{
+    display: flex;
+    padding: 15px;
+    figcaption, p{
+        font-family: $font-family-1;
+    }
+}
+
+.image{
+    flex: 1;
+    figcaption{
+        width: 275px;
+        justify-content: center;
+    }
+    img{
+        @extend %img;
+        @include image-dimensions(100px, 110px);
+    }
+    @for $i from 1 through 4{
+        figcaption:nth-child(#{$i}){
+            font-weight: bolder;
+        }
+    }
+}
