@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+        <!-- main nav bar -->
+        <div>
+            <header>
+                <nav class="main-nav">
+                    <a href="/" class="travelo"><img src="images/Group 39708@2x.png" alt="travelo-logo"></a>
+                    <a href="/">Home</a>
+                    <a href="/">About</a>
+                    <a href="#places">Places</a>
+                    <a href="/">Careers</a>
+                    <a href="#blogs">Blog</a>
+                    <input type="button" class="connect" value="Connect">
+                </nav>
+            </header>
+        </div>
+        
+        <!-- home page main image -->
+        <div class="home-page">
+            <img src="images/lalo-hernandez-Amo081zdJsI-unsplash.png" class="home-image" alt="home-image">
+            <h1 class="home-heading">TRAVEL TO EXPLORE</h1>
+            <p class="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, voluptates. Ducimus, quaerat deserunt et alias accusamus illum quo, cumque mollitia maxime exercitationem labore porro soluta similique ad atque libero non.<p>
+        </div>
+
+        <!-- form to take inputs of location, check-in, and check-out dates to find suitable destinations  -->
+        <form action="/" method="post" class="form">
+            <fieldset>
+                <div class="form-p1">
+                    <label for="">Where You Want to Go?</label>
+                    <input type="text" placeholder="Search your location" name="destination" id="destination" required> 
+                </div>
+                <div class="form-p2">
+                    <label for="">Check-In</label>
+                    <input type="date" name="checkin" id="checkin" required>
+                </div>
+                <div class="form-p3">
+                    <label for="">Check-Out</label>
+                    <input type="date" name="checkout" id="checkout" required>
+                </div>
+                <button class="explore-now">Explore Now</button>
+            </fieldset>
+        </form>
+
+        <!-- key features description -->
+        <section class="features">
+            <figure class="image">
+                <img src="images/Screen Shot 2022-09-19 at 10.39.23 PM.png" alt="best-prices">
+                <figcaption><strong>Best Prices</strong><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption>
+            </figure>
+
+            <figure class="image">
+                <img src="images/Screen Shot 2022-09-19 at 10.39.37 PM.png" alt="covid-safe">
+                <figcaption><strong>Covid Safe</strong><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption>
+            </figure>
+
+            <figure class="image">
+                <img src="images/Screen Shot 2022-09-19 at 10.39.49 PM.png" alt="flex-payment">
+                <figcaption><strong>Flexible Payment</strong><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption>
+            </figure>
+
+            <figure class="image">
+                <img src="images/Screen Shot 2022-09-28 at 12.05.19 PM.png" alt="best-near-you">
+                <figcaption><strong>Find The Best Near You</strong><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption>
+            </figure>
+        </section>
+        
+        <!-- recommended destinations with descriptions -->
+        <div id="places" class="recommended">
+            <h2>Recommended Destination</h2>
+            <a href="/">The Weekend Break</a>
+            <a href="/">The Package Holiday</a>
+            <a href="/">The Group Tour</a>
+            <a href="/">Long Term Slow Travel</a>
+        </div>
+
+        <section class="destinations">
+            <figure class="destination">
+                <img src="images/Singapore.png" alt="singapore">
+                <figcaption><a href="/">Singapore</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+
+            <figure class="destination">
+                <img src="images/Thailand.png" alt="thailand">
+                <figcaption><a href="/">Thailand</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+
+            <figure class="destination">
+                <img src="images/Paris.png" alt="paris">
+                <figcaption><a href="/">Paris</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+
+            <figure class="destination">
+                <img src="images/New Zealand.png" alt="new-zealand">
+                <figcaption><a href="/">New Zealand</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+
+            <figure class="destination">
+                <img src="images/Bora Bora.png" alt="bora-bora">
+                <figcaption><a href="/">Bora Bora</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+
+            <figure class="destination">
+                <img src="images/London.png" alt="london">
+                <figcaption><a href="/">London</a><br/>
+                    <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, neque!
+                </figcaption><br/>
+            </figure>
+        </section>
+        
+        <!-- blogs section -->
+        <section id="blogs" class="blogs">
+            <h2>Blogs</h2>
+                <a href="/">
+                <figure class="blog">
+                    <img src="images/kili.jpeg" alt="mount-kilimanjaro"><br/>
+                    <figcaption class="kili">The Ultimate Guide to Climbing Mount Kilimanjaro</a><br/></figcaption>
+                </figure>
+                <a href="/">
+                <figure class="blog">
+                    <img src="images/flight.jpeg" alt="flight"><br/>
+                    <figcaption class="traveller">12 Things I'd Tell Any New Traveller</a><br/></figcaption>
+                </figure>
+                <a href="/">
+                <figure class="blog">
+                    <img src="images/packing.jpeg" alt="packing"><br/>
+                    <figcaption class="packing">The Ultimate Packing List For Female Travellers</a><br/></figcaption>
+                </figure>
+        </section>
+    </body>
+
+    <!-- customer testimonials -->
+    <section class="customers">
+        <h2>Happy Customers</h2>
+        <div class="customer">
+            <p><q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, delectus!</q><p>
+            <img src="images/person.jpeg" alt=""><br>
+            <strong>Shalini Singh</strong></p>
+            <p class="role">Project Manager Flyhigh</p>
+        </div>
+        <div class="customer">
+            <p><q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, delectus!</q><p>
+            <img src="images/person.jpeg" alt=""><br>
+            <strong>Shalini Singh</strong></p>
+            <p class="role">Project Manager Flyhigh</p>
+        </div>
+        
+    </section>
+
+    <!-- footer nav bar -->
+    <div>
+        <footer>
+            <nav class="bottom-nav">
+                <div>Copyright 2020 Travelo. All rights reserved.</div>
+                <a href="/">Home</a>
+                <a href="/">About</a>
+                <a href="#places">Places</a>
+                <a href="/">Careers</a>
+                <a href="#blogs">Blog</a>
+                <div class="social-media">
+                    <a href="/"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="/"><img src="images/LinkedIn@2x.png" alt="linkedin"></a>
+                </div>
+            </nav>
+        </footer>
+    </div>
+</html>
