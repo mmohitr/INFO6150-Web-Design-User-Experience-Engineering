@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Complete Assignment 1",
+        "description": "This is assignment 1",
+        "dueDate": "2022-10-17",
+        "time": "12:00"
+    },
+    {
+        "title": "Complete Assignment 2",
+        "description": "This is assignment 2",
+        "dueDate": "2022-10-18",
+        "time": "01:00"
+    },
+    {
+        "title": "Complete Assignment 3",
+        "description": "This is assignment 3",
+        "dueDate": "2022-10-19",
+        "time": "02:00"
+    },
+    {
+        "title": "Complete Assignment 4",
+        "description": "This is assignment 4",
+        "dueDate": "2022-10-20",
+        "time": "03:00"
+    },
+    {
+        "title": "Complete Assignment 5",
+        "description": "This is assignment 5",
+        "dueDate": "2022-10-21",
+        "time": "04:00"
+    }
+]

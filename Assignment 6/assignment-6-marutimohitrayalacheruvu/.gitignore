@@ -1,0 +1,8 @@
+# logs - ignores all log files
+**/logs
+
+# dependency caches - ignores node_modules 
+node_modules/
+
+# dist files
+dist
