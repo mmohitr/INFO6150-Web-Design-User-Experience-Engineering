@@ -1,0 +1,29 @@
+.todoDetails{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: silver;
+}
+
+.checked{
+    text-decoration: line-through;
+    opacity: .5;
+}
+  
+.btn{
+    width: 2em;
+    height: 2em;
+    display: inline;
+    background: lightgrey;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    float: right;
+}
+
+.btnDone{
+    background: 030352ce;
+}

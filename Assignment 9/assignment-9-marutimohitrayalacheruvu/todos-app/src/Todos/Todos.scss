@@ -1,0 +1,16 @@
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    cursor: pointer;
+}
