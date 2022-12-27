@@ -1,0 +1,42 @@
+@import "config";
+
+// authentication styles
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ed6cd9 0%, #380b6e 100%);
+  input {
+    background-color: $background-color_2;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: $color_5;
+  }
+  h1 {
+    font-size: 35px;
+    color: $color_5;
+    font-weight: 600;
+  }
+}
+.lottie {
+  height: 400px;
+}
+.lottiee {
+  height: 500px;
+}
+input {
+  &:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784) !important;
+  }
+}
+label {
+  color: $color_4 !important;
+  font-size: 15px;
+}
+a {
+  color: $color_4 !important;
+  font-size: 15px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "final-project-pathfinders",
+  "version": "1.0.0",
+  "description": "## Project Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2022/final-project-pathfinders.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2022/final-project-pathfinders/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2022/final-project-pathfinders#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+  
+}

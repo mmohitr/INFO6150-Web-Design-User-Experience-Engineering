@@ -1,0 +1,28 @@
+@import 'config';
+
+// transactions styles
+.transactions-count {
+  box-shadow: 0 0 2px rgb(49, 46, 46);
+  padding: 15px;
+  border-radius: 10px;
+  color: $color_6 !important;
+}
+
+// analytics styles
+.analytics {
+  h4 {
+    font-size: 20px;
+    color: $color_6 !important;
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 16px;
+    color: $color_6 !important;
+  }
+}
+.category-card {
+  padding: 5px 20px;
+  box-shadow: 0 0 2px rgb(43, 40, 40);
+  margin-top: 15px;
+  border-radius: 5px;
+}
